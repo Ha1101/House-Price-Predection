@@ -1,1 +1,2 @@
 # House-Price-Predection
+This project predicts house prices using the Ames Housing dataset with an advanced regression model built using XGBoost. It includes a complete preprocessing pipeline for handling missing values, scaling, and encoding, followed by hyperparameter tuning with RandomizedSearchCV to minimize RMSE error under $500. The final model generates a Kaggle-compatible submission file and can optionally be deployed via a Streamlit app for interactive price predictions.
